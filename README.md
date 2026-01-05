@@ -36,6 +36,16 @@ The contracts in this repository are designed specifically for the Cronos ecosys
 - Phase 2: Initial testnet deployment and validation
 - Phase 3: Pilot mainnet deployment on Cronos
 - Phase 4: Iterative improvements and feature expansion
+  
+## Cronos Testnet Plan
+
+Bloopix Tech will begin its on-chain activity on the Cronos testnet with a minimal, purpose-built smart contract named **BloopixAuditAnchor**.
+
+The Audit Anchor contract is designed to record cryptographic proofs of off-chain verification or audit events by anchoring a hash and timestamp on-chain. Each anchor transaction emits an immutable event, creating verifiable and auditable on-chain activity without exposing sensitive data.
+
+This approach reflects Bloopix Tech’s selective decentralization philosophy: leveraging blockchain for trust, immutability, and auditability while keeping analytics and intelligence off-chain.
+
+Initial testnet deployment will focus on validating contract behavior, measuring on-chain activity, and preparing for a controlled mainnet rollout.
 
 ## License
 
